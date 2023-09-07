@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+.mx-wd{
+    max-width: 500px;
+}
+.auto{
+    margin: 0 auto;
+}
+.center{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center .pd{
+    border-radius: 8px;
+    box-shadow: 0 0 5px #e2e2fd;
+    background-color: #fff;
+    padding:18px 40px;
+    margin-top: 20%;
+}
+.center input[type=number]{
+    width: 100%;
+    padding: 12px 8px;
+    font-size: 18px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+form div{
+    display: flex;
+    align-items: center;
+}
+form div span{
+    font-size: 17px;
+    padding-left: 8px;
+}
+h2{
+    padding: 10px 0;
+    text-align: center;
+}
+.fn-sz{
+    font-size: 13px;
+    color: #555;
+    font-weight: bold;
+    padding: 0;
+}
+input,button{
+    padding:12px 10px;
+    align-items: center;
+    background-color: azure;
+    font-size: 16px;
+    border: 1px solid #eee;
+    margin: 10px 0;
+    outline: none;
+    cursor: pointer;
+
+}
+.btn input[type=text]{
+    width: 80%;
+    border-radius: 8px 0 0 8px;
+   
+}.btn button {
+    width: 20%;
+    background-color: #fbf2e5;
+    border-radius: 0 8px 8px 0;
+}
+
+.btn button:hover {
+    background-color: #f5e4cd;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+input[type=submit]{
+    width: 100%;
+    border-radius: 8px;
+}
+input[type=submit]:hover{
+    background-color: #cffdfd;
+}
+.range{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.range .block{
+    display: block;
+}
+.range input{
+    margin: 0;
+}
+.len-wd{
+    width: 20px;
+    margin-right: 4px;
+    padding: 0;
+    margin-left: 2px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all_char{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.all_char div{
+    display: flex;
+    align-items: center;
+}
+.flex-icon{
+    display: flex;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    fill: #fff;
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px ;
+    background-color: #008ee0;
+    border-radius: 50%;
+}

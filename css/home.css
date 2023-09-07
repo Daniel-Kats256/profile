@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.1s;
+    font-family: sans-serif;
+   
+}
+body{
+    height: 170vh;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(250, 152, 4), yellow);
+
+}
+.page{
+    width: 85%;
+    height: 950px;
+    border-radius: 10px;
+    background-color: rgb(187, 180, 180);
+    overflow: hidden;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    
+}
+.logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.logo p{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+.logo > div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.logo .icons{
+    width: 80%;
+    height: 55px;
+    background-color: rgb(250, 136, 60);
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 9px rgb(255, 102, 0);
+}
+.logo .icons div{
+    width: 10%;
+    height: 25px;
+    border-radius: 100%;
+    /* background-color: white; */
+    margin: 7px;
+    /* flex-grow: 1; */
+}
+.logo .icons div span{
+    width: 100%;
+    height: 100%;
+    fill: rgb(0, 0, 0);
+}
+.about{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.about > div{
+    width: 79%;
+    font-size: 12px;
+    height: 135px;
+    border-bottom: 1px solid grey;
+}
+.about > div > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    padding: 3px;
+}
+.about div span{
+    background-color: rgb(253, 217, 14);
+    padding: 4px;
+}
+.about div p, .about div h5{
+    margin-left: auto;
+}
+.about div h5{
+    color: rgb(129, 214, 0);
+}
+.skills{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills > div{
+    width: 79%;
+    margin-bottom: 10px;
+
+}
+.skills > div p{
+    font-size: 11px;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+.cv{
+    width: 100%;
+    margin-top: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cv > div{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 123, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.middle{
+    height: 100%;
+    width: 68%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.top{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.top > div:nth-child(1){
+    margin: 13%;
+    height: 100%;
+    width: 60%;
+    margin-right: 0px;
+}
+.top > div:nth-child(1) h1{
+    padding: 5px;
+}
+.top > div:nth-child(1) p{
+    padding: 10px;
+    font-size: 13px;
+}
+.top > div:nth-child(2){
+    height: 220px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.top > div > div{
+    height: 40px;
+    margin: 10px;
+    width: 140px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top > div span{
+    color: rgb(255, 123, 0);
+}
+.top > div img{
+    height: 100%;
+    width: 100%;
+    margin-top: 140px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23%;
+}
+.mid > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mid p{
+    text-align: center;
+    font-size: 12px;
+}
+.boxes{
+    width: 100%;
+    height: 40%;
+    
+}
+.boxes > div{
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.boxes > div > div{
+    flex-grow: 1;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: white;
+}
+.right{
+    width: 75px;
+    height: 100%;
+    background-color: white;
+}
+.right > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    width: 80%;
+    margin-top: 50px;
+}
+.right > div > div{
+    height: 50px;
+    width: 40%;
+    border-radius: 100%;
+    /* background-color: rgb(226, 103, 47); */
+    margin-top: 40px;
+}
+.right > div > div a {
+    text-decoration: none;
+    position: relative;
+    font-size: 10px;
+}
+.right > div > div a:hover{
+    fill: rgb(235, 121, 15);
+}
+.right > div > div a.active{
+    fill: rgb(85, 235, 235);
+}
+
+.right > div > div a > div{
+    transform: scale(0);
+    transition-delay: 1s;
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    left: -3px;
+    /* background-color: rgb(253, 71, 71); */
+}
+.right > div > div a:hover > div{
+    transform: scale(1);
+    transition: 0s;
+    color: black;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px)  {
+    body{
+        max-width: 1700px;
+        max-height: 300vh;
+    }
+    .top > div img{
+        height: 70%;
+        width: 70%;
+        margin-top: 100px;
+    }
+    .top > div:nth-child(1){
+        margin: 8%;
+        height: 7%;
+        width: 30%;
+    }
+    .top > div:nth-child(1) h1{
+        padding: 2px;
+    }
+    .top > div:nth-child(1) p{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .top > div:nth-child(2){
+        height: 200px;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    .top > div > div{
+        height: 30px;
+        margin: 7px;
+        width: 120px;
+        border-radius: 5px;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxes{
+        width: 100%;
+    }
+    .boxes > div{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .boxes > div > div{
+        width: 50%;
+        height: 500px;
+        border-radius: 10px;
+        margin: 5px;
+        background-color: white;
+    }
+    .page{
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+        overflow: scroll;
+    }
+    .right{
+        height: 1800px;
+        width: 10%;
+        background-color: white;
+    }
+    .left{
+        height: 1800px;
+        width: 25%;
+        background-color: white;
+        
+    }
+    .logo{
+        height: 200px;
+    }
+    .about{
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+    .skills > div{
+        width: 82%;
+        margin-bottom: 20px;
+    
+    }
+    .skills > div p{
+        font-size: 15px;
+        padding: 8px;
+        border-bottom: 1.5px solid grey;
+    }
+    .cv > div{
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(255, 155, 4);
+        background: none;
+    }
+}
