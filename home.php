@@ -15,7 +15,7 @@
         <div class="left">
             <div class="logo">
                 <div>
-                    <img src="download.png" alt="">
+                    <img src="download.jpg" alt="">
                 </div>
                 <p>Daniel  Kats</p>
                 <p>Full-Stack Developer</p>
@@ -85,7 +85,7 @@
                     <div>HIRE ME</div>
                 </div>
                 <div>
-                    <img src="download.png" alt="">
+                    <img src="download.jpg" alt="">
                 </div>
             </div>
             <div class="mid">
